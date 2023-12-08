@@ -10,11 +10,11 @@ class MadLib:
         self.wordlist[4] = input("Scrie un verb: ")
         self.wordlist[5] = input("Scrie o locație / stare: ")
         sentence = (f"Ana a mers la {self.wordlist[0]} "
-                    f"si a luat {self.wordlist[1]} "
+                    f"și a luat {self.wordlist[1]} "
                     f"apoi a {self.wordlist[2]} "
                     f"și s-a jucat cu {self.wordlist[3]} "
                     f"apoi a {self.wordlist[4]} "
-                    f"pana la {self.wordlist[5]} ")
+                    f"până la {self.wordlist[5]} ")
         return sentence
 
 
